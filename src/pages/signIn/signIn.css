@@ -1,0 +1,116 @@
+.signIn {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signIn .container {
+  height: 65%;
+  width: 65%;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.48);
+  box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.48);
+  border-radius: 10px;
+}
+
+.signIn .container .left {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  color: white;
+}
+
+.signIn .container .left .background {
+  height: 100%;
+  width: 100%;
+}
+
+.signIn .container .left .background img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.signIn .container .left .cName {
+  position: absolute;
+  top: 1px;
+  left: 20px;
+}
+
+.signIn .container .left .summary {
+  position: absolute;
+  top: 100px;
+  left: 160px;
+}
+
+.signIn .container .right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+
+.signIn .container .right .rForm {
+  height: 80%;
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.48);
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.signIn .container .right .rForm .top p {
+  line-height: 1.5;
+  color: gray;
+}
+
+.signIn .container .right .rForm .user {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 5px 0px;
+}
+
+.signIn .container .right .rForm .user label {
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.signIn .container .right .rForm .user input {
+  margin: 8px 0px;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  /* border-bottom: 1px solid black; */
+  border-left: 3px solid blue;
+  background-color: rgb(243, 243, 243);
+  width: 350px;
+  font-size: 15px;
+}
+
+.signIn .container .right .rForm .keep {
+  display: flex;
+  margin-top: -8px;
+  /* justify-content: space-evenly; */
+}
+
+.signIn .container .right .rForm .keep .check {
+  display: flex;
+  margin-right: 100px;
+}
+
+.signIn .container .right .rForm .buttn button {
+  font-size: 15px;
+  width: 15em;
+  height: 40px;
+  background-color: lightblue;
+  font-weight: bold;
+}
